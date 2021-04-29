@@ -138,6 +138,24 @@ img {
     text-decoration: none;
 }
 
+.img-grup{
+    position: relative;
+}
+
+.img-grup::before{
+    display: inline-block;
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color:var(--link-cl);
+    transform: translateY(100px);
+}
+
+
+
 .link-portfolio:hover,
 .link-portfolio:focus
     {
